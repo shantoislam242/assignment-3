@@ -6,3 +6,15 @@ module.exports = {
     },
     plugins: [],
   }
+
+  // tailwind.config.js
+module.exports = {
+  theme: {
+    extend: {
+      backgroundImage: {
+        'custom-bg': "url('/images/bg.jpg')",
+      },
+    },
+  },
+  plugins: [],
+}
